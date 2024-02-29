@@ -1,0 +1,4 @@
+*.app
+Translations/Subscription.g.xlf
+.vscode/launch.json
+.vscode/rad.json
