@@ -1,6 +1,5 @@
 codeunit 50149 "CSD Install Subscription"
 {
-    //comment
     Subtype = Install;
     trigger OnInstallAppPerCompany()
     var
