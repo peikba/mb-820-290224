@@ -30,6 +30,7 @@ table 50100 "CSD Subscription"
                     Rec."Deferral Code" := Item."Default Deferral Template Code"
                 else
                     Rec."Deferral Code" := '';
+                item.TestField(Blocked, false);
                 if "Invoicing Price" = 0 then
                     "Invoicing Price" := item."Unit Price";
             end;

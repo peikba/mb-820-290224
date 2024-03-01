@@ -48,4 +48,28 @@ page 50100 "CSD Subscription Card"
             }
         }
     }
+    actions
+    {
+        area(Processing)
+        {
+            action("Call Hello World")
+            {
+                Caption = 'Call Hello World';
+                ApplicationArea = All;
+                trigger OnAction()
+                begin
+                    Message('Hello World');
+                end;
+            }
+        }
+        area(Promoted)
+        {
+            group(Category_Process)
+            {
+                actionref("Call Hello World_Promoted"; "Call Hello World")
+                {
+                }
+            }
+        }
+    }
 }

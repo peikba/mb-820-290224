@@ -1,9 +1,9 @@
-query 50101 "CSD APISubscriptionCustomer"
+query 50101 "APISubscriptionCustomer"
 {
     QueryType = API;
     APIPublisher = 'Developer';
     APIGroup = 'GroupName';
-    APIVersion = 'v1.0';
+    APIVersion = 'v2.0';
     EntityName = 'SubscriptionCustomer';
     EntitySetName = 'SubscriptionCustomers';
 
